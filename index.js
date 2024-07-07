@@ -10,10 +10,7 @@ function addItem(newItem) {
     li.textContent = newItem;
     itemList.appendChild(li);
     itemInput.value = '';
-    li.addEventListener('click', () => {
-        li.classList('purchased');
-       
-    });
+    
 }
 
 addItemButton.addEventListener('click', function(event) {
